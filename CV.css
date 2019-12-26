@@ -19,14 +19,13 @@ h1 {
     color: white;
 }
 
-img {
-    height: 250px;
-    width: 250px;
-}
-
 .fa-icon {
     color: white;
     font-size: 20px !important;
+}
+
+.fa-icon:hover {
+    color: black;
 }
 
 header {
@@ -42,4 +41,15 @@ header {
     color: rgb(4, 206, 4) !important;
     border: 1px green solid;
     padding: 10px;
+}
+
+.social-buttons:hover {
+    color: black;
+}
+
+@media (min-width: 1024px) {
+    img {
+        height: 250px !important;
+        width: 250px !important;
+    }
 }
