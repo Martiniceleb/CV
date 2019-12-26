@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container animated fadeIn">
             <div class="text-center">
                 <H1>I am <br> Martini Adeboye Mabifa</H1>
                 <p class="subtext"> The Multi-Professional</p>
@@ -76,7 +76,7 @@
             <div class="card-block p-5">
                 <h2>Work</h2>
 
-                <div class="work-experience pb-4">
+                <div class="work-experience pb-4 pt-3">
                     <small class="date">August 2019- November 2019</small>
                     <h3 class="h5 date-title">Intern - <a href="http://hng.tech" title="HNG Internship 6.0 August-November 2019">HNGi 6.0</a></h3>
 
@@ -117,7 +117,7 @@
         <div class="card mt-4 mx-n3 ">
             <div class="card-block p-5">
                 <h2>Education</h2>
-                <div class="row pt-2">
+                <div class="row pt-3">
                     <div class="col-md-8">
                         <div class="education-experience">
                             <small class="date">2010-2014</small>
@@ -132,7 +132,7 @@
         <div class="card mt-4 mx-n3 ">
             <div class="card-block p-5">
                 <h2>Programming Language</h2>
-                <div class="row pt-2">
+                <div class="row pt-3">
                     <div class="col-md-4">
                         <div class="language-experience">
                             <h3 class="h5">HTML5 <small>Expert</small></h3>
@@ -160,7 +160,7 @@
         <div class="card mt-4 mx-n3 ">
             <div class="card-block p-5">
                 <h2>Tools</h2>
-                <div class="row pt-2">
+                <div class="row pt-3">
                     <div class="col-md-4">
                         <div class="language-experience">
                             <h3 class="h5">FIGMA <small>Beginner</small></h3>
@@ -175,11 +175,11 @@
             </div>
         </div>
 
-        <div class="card mt-4 mx-n3 animated bounceInRight">
+        <div class="card mt-4 mx-n3 ">
             <div class="card-block p-5">
                 <h2>Extracurricular Activities</h2>
 
-                <div class="Experience pb-3">
+                <div class="Experience pb-3 pt-3">
                     <small class="date">2017</small>
                     <h3 class="h5 date-title">Renewable Energy</h3>
                     <p><i>Description</i><br> Carried out a successful Mini Project on the production of Biogas from biomass stored in an Anaerobic Digester under controlled conditions.</p>
@@ -188,10 +188,10 @@
             </div>
         </div>
 
-        <div class="card mt-4 mx-n3 animated bounceInLeft">
+        <div class="card mt-4 mx-n3 ">
             <div class="card-block p-5">
                 <h2>Language</h2>
-                <div class="row pt-2">
+                <div class="row pt-3">
                     <div class="col-md-4">
                         <div class="language-experience">
                             <h3 class="h5">English <small>Expert</small></h3>
@@ -214,7 +214,7 @@
         <div class="card mt-4 mx-n3 ">
             <div class="card-block p-5">
                 <h2>Contact Address</h2>
-                <div class="row pt-2">
+                <div class="row pt-3">
                     <div class="col-md-3">
                         <Address>
                                   <strong>Address: 39, Adeola Raji, Atunrase Estate,<br>Gbagada <br>Lagos-Nigeria</strong>
@@ -229,7 +229,7 @@
         <div class="card mt-4 mx-n3 ">
             <div class="card-block p-5">
                 <h2>Social Network</h2>
-                <div class="row pt-2">
+                <div class="row pt-3">
                     <div class="col-md-3">
                         <p>
                             <a href="https://www.facebook.com/martini.mabifa" title="">
@@ -303,43 +303,6 @@
                 </div>
             </div>
     </footer>
-    <script>
-        function onViewport(el, elClass, offset, callback) {
-            /*** Based on http://ejohn.org/blog/learning-from-twitter/ ***/
-            var didScroll = false;
-            var this_top;
-            var height;
-            var top;
-
-            if (!offset) {
-                var offset = 100;
-            }
-
-            $(window).scroll(function() {
-                didScroll = true;
-            });
-
-            setInterval(function() {
-                if (didScroll) {
-                    didScroll = false;
-                    top = $(this).scrollTop();
-
-                    $(el).each(function(i) {
-                        this_top = $(this).offset().top - offset;
-                        height = $(this).height();
-
-                        // Scrolled within current section
-                        if (top >= this_top && !$(this).hasClass(elClass)) {
-                            $(this).addClass(elClass);
-
-                            if (typeof callback == "function") callback(el);
-                        }
-                    });
-                }
-            }, 100);
-        }
-    </script>
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
